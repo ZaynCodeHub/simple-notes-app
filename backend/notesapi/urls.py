@@ -1,7 +1,10 @@
 from django.urls import path
 from .views import (
-    UserCreate, LoginView, LogoutView,
-    NoteListCreate, NoteRetrieveUpdateDestroy
+    UserCreate,
+    LoginView,
+    LogoutView,
+    NoteListCreate, 
+    NoteRetrieveUpdateDestroy
 )
 
 urlpatterns = [
